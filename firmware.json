@@ -1,7 +1,16 @@
-{
-    "type": "esp32-fota-https",
-    "version": 2,
-    "host": "raw.githubusercontent.com",
-    "port": 443,
-    "bin": "/dexion/nebo-firmwares/main/fota_via_https_v2.bin"
-}
+[
+    {
+        "type": "esp32-fota-https",
+        "version": 2,
+        "host": "raw.githubusercontent.com",
+        "port": 443,
+        "bin": "/dexion/nebo-firmwares/main/fota_via_https_v2.bin"
+    },
+    {
+        "type": "esp32-fota-https",
+        "version": 3,
+        "host": "raw.githubusercontent.com",
+        "port": 443,
+        "bin": "/dexion/nebo-firmwares/main/fota_via_https_v3.bin"
+    }
+]
