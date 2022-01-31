@@ -1,5 +1,12 @@
 [
     {
+        "type": "esp32-fota-https",
+        "version": 2,
+        "host": "raw.githubusercontent.com",
+        "port": 443,
+        "bin": "/dexion/nebo-firmwares/main/nebo-air-680-2.bin"
+    },
+    {
         "type": "nebo-air-bme680",
         "version": 2,
         "host": "raw.githubusercontent.com",
